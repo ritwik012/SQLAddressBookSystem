@@ -22,3 +22,5 @@ update AddressBookTable set Zip='441501' where LastName='Bhavani';
 select * from AddressBookTable;
 
 delete from AddressBookTable where FirstName='Hitesh';
+
+select FirstName,LastName from AddressBookTable where City='Kalmeshwar' or State='Maharashtra';
