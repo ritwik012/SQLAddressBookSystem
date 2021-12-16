@@ -24,3 +24,6 @@ select * from AddressBookTable;
 delete from AddressBookTable where FirstName='Hitesh';
 
 select FirstName,LastName from AddressBookTable where City='Kalmeshwar' or State='Maharashtra';
+
+
+select count(City) as CityCount, count(State) as StateCount from AddressBookTable;
