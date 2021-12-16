@@ -15,3 +15,8 @@ insert into AddressBookTable(FirstName,LastName,Address,City,State,Zip,Phone,Ema
 ('Hitesh', 'Sharma', 'Road No 34', 'Sangli', 'Maharashtra', '440034', '8374837584', 'Hitesh@gmail.com'),
 ('Durga', 'Bhavani', 'Durga Temple Road', 'Nagpur', 'Maharashtra', '440021', '9924936885', 'durga@gmail.com'),
 ('Satya', 'Narayana', 'Bus Stand Road', 'Nagpur', 'Maharashtra', '440021', '6084375820', 'satya@gmail.com');
+
+
+update AddressBookTable set City='kalmeshwar' where FirstName='Rakesh';
+update AddressBookTable set Zip='441501' where LastName='Bhavani';
+select * from AddressBookTable;
